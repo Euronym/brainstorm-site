@@ -1,0 +1,7 @@
+.membersCarrosel{
+    overflow-x: scroll;
+    height: auto;
+    padding: 0 50px 0 50px;
+    display: flex;
+    flex-direction: row;
+}

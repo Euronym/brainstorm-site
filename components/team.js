@@ -1,6 +1,11 @@
 import teamStyle from '../styles/team.module.css'
 
+import CardMember from './cardMember'
+
 export default function Team() {
+
+    const Members = require('../members.json')
+
     return(
         <div>
             <p>Nosso time</p>
@@ -9,8 +14,8 @@ export default function Team() {
                 Nosso diferencial é a criatividade e a clareza de ideias. 
                 Buscamos alcançar a inovação e a qualidade nos serviços prestados pela empresa. 
             </div>
-            <div>
-                
+            <div className={teamStyle.membersCarrosel}>
+                {Members.members.map((item , _i) => <CardMember memberInfo={item}/>)}
             </div>
         </div>
     );

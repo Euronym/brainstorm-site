@@ -6,7 +6,7 @@
     flex-direction: row;
     width: 100%;
     height: 500px;
-    background-color: yellow;
+    background-color: var(--fundoHero);
 }
 .content div{
     height: auto;

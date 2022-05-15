@@ -1,11 +1,26 @@
 {
-    "name": "",
-    "role": "",
-    "image_path": "",
-    "social_medias": {
-        "github": "",
-        "facebook": "",
-        "instagram": "",
-        "linkedin": ""
-    }
+    "members": [
+        {
+            "name": "Bruno Martins",
+            "role": "Equipe de Projetos",
+            "image_path": "/images/members/bruno.jpeg",
+            "social_medias": {
+                "github": "https://github.com/Euronym",
+                "facebook": null,
+                "instagram": null,
+                "linkedin": null 
+            }
+        },
+        {
+            "name": "Danilo Nicioka",
+            "role": "Equipe de Projetos",
+            "image_path": "/images/members/danilo.jpeg",
+            "social_medias": {
+                "github": "https://github.com/danilonicioka",
+                "facebook": "https://www.facebook.com/danilo.nicioka.1/",
+                "instagram": "https://www.instagram.com/danilo0802/",
+                "linkedin": null 
+            }
+        }
+    ]
 }
