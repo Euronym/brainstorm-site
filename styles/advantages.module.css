@@ -1,0 +1,30 @@
+.container{
+    padding: 50px;
+    flex-direction: row;
+    display: flex;
+}
+.buttonAbout{
+    width: 200px;
+    height: 50px;
+}
+.reasons{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.reasons circle{
+    text-align: center;
+    background-color: yellow;
+    display: block;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.reasons div div:first-of-type{
+    display: flex;
+    flex-direction: row;
+}
+.reasons div div:first-of-type h3{
+    margin-left: 10px;
+}
